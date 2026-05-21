@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads (if you don't want to track uploaded files)
+uploads/
+uploads/**/*
+
+# Temporary files
+temp/
+tmp/
+
+# Excel exports
+*.xlsx
+*.xls
+
+# Production build
+dist/
+build/
